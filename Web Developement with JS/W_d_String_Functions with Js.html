@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta chaeset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>JavaScript Strings Functions</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <script>
+        var str = "this is a string";
+        console.log(str);
+
+        // First occurence of a substring
+        position = str.indexOf('is');
+        console.log(position);
+
+        // Last occurence of a substring
+        var position = str.lastIndexOf('is');
+        console.log(position);
+
+        // Substring frem a string (Slicing)
+        // var substr = str.slice(1, 9);
+        //  var substr = str.substring(-1,9)
+        var substr1 = str.substr(1, 5); // 3 shows length
+        console.log(substr1);
+
+        // replace
+        var replaced = str.replace('string', 'Yashvi');
+        // console.log(str);
+        // console.log(replaced);
+
+        // Upper/lower case
+        // console.log(str.toLocaleUpperCase());
+        // console.log(str.toLocaleLowerCase());
+
+        // concat
+        // var newString = str.concat(' New string');
+        // console.log(newString);
+
+        // Remove begining and ending whitwspace..
+        // var strWithWhitespaces = "    this contsins   whitespaces  ";
+        // console.log(strWithWhitespaces);
+        // console.log(strWithWhitespaces.trim());
+
+        // no. of character in st
+        // var char2 = str.charAt(2);
+        // // var char2 = str.charCodeAt(2); ..gives code of char
+        // console.log(char2);
+
+        console.log(str[3]); // Also slicing
+
+    </script>
+</body>
+
+</html>
