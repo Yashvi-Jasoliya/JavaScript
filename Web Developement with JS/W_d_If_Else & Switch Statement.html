@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta chaeset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Scopes and conditionals</title>
+</head>
+
+<body>
+    <!-- s.c ->  div>ul>li{Item-$}*7 -->
+    <div>
+        <ul>
+            <li>Item-1</li>
+            <li>Item-2</li>
+            <li>Item-3</li>
+            <li>Item-4</li>
+            <li>Item-5</li>
+            <li>Item-6</li>
+            <li>Item-7</li>
+        </ul>
+    </div>
+    <script>
+        var st1 = "This is a string1";
+        var st1 = "This is a string2";
+        console.log(st1);
+
+        let a = "Y";
+
+        {                
+            let a = "y1";
+            console.log(a);  // For block..
+        }
+
+        console.log(a);  // For globally..
+
+        // const not will be changed..
+        const x ="This can't be changed";
+        // x = "I want to change this. This can't be changed";
+        console.log(x);
+
+        // let age = 18;
+        // if(age>18){
+        //     console.log("You can drive a vehicle..");
+        // }
+        // else if(age==18){
+        //     console.log("Your age is 18..");
+        // }
+        // else{
+        //     console.log("You can't drive a vehicle..")
+        // }
+            const days = 5 ;
+         switch (days) {
+            case 1:
+                console.log("Today is Monday")
+                break;
+
+                case 5:
+                console.log("Today is Fridday")
+                break;
+
+                case 7:
+                console.log("Today is Sunday")
+                break;
+         
+            default:
+                console.log("Not Monday, Friday, Sunday...")
+                break;
+         }  
+
+    </script>
+</body>
+
+</html>
