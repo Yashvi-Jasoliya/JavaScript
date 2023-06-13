@@ -1,4 +1,4 @@
-console.log("This is a Tutorial 53");
+console.log("This is a Tutorial of JavaScript");
 
 function greet(name, greetText = "Greetings from js..") {
     // let name1 = Name1;  // Block level..
