@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta chaeset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Loops</title>
+</head>
+
+<body>
+    <div class="container">
+        This is about loops
+    </div>
+
+    <script>
+        console.log("This is tutorial 55");
+        // let i = 0;
+        // for (let i = 0; i < 5; i++) {
+        //    console.log(i);   
+        // }
+
+        let frds = ["Yashvi", "Meera", "Vishv", "Krisha", "Yash"];
+        // for (let index = 0; index < frds.length; index++) {
+        //     console.log("Heyy frds.. ," + frds[index]);
+        // }
+
+        // Also use...
+        // frds.forEach(function f(element) {
+        //     console.log("Heyy frds.. ," + element + "to modern js");
+        // });
+
+        // Also use..
+        // for(element of frds){
+        //     console.log("Heyy frds.. ," + element + " to modern js again..");
+        // } 
+
+        let employee = {
+            name: "Yashvi",
+            salary: 25000,
+            study: "IT",
+        }
+        //  Use this loop to iterate over objects in js..
+        for (key in employee) {
+            console.log(`The ${key} of employee is ${employee[key]}`);
+        }
+
+        // while loop in js..
+        let i = 0;
+        while (i < 4) {
+            console.log(`${i} is less than 4..`);
+            i++;
+        }
+
+        // do while in js..
+        let j = 30;
+        do {
+            console.log(`${j} is less than 4 and we are inside do while loop..`);
+            j++;
+        } while (j < 4);
+
+
+    </script>
+
+</body>
+
+</html>
